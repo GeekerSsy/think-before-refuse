@@ -1,7 +1,7 @@
 import transformers
 import torch
 
-model_id = "/dss/dssmcmlfs01/pn36bu/pn36bu-dss-0000/di35pal/huggingface-models/models--meta-llama--Meta-Llama-3-70B-Instruct/snapshots/e8cf5276ae3e97cfde8a058e64a636f2cde47820"
+model_id = "meta-llama/Meta-Llama-3-70B-Instruct"
 
 pipeline = transformers.pipeline(
     "text-generation",
